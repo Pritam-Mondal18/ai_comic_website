@@ -49,5 +49,34 @@ integrating multiple AI services.
   <li>Optimize the app for efficient performance on edge devices.</li>
 </ul>
 
+## Outcomes Expected
+
+<ul>
+  <li>Functional Application: A fully functional app that generates comic book-style stories based on user prompts.</li>
+  <li>User Engagement: An engaging and interactive UI that allows users to input prompts and view generated comics.</li>
+  <li>Edge Deployment: A successful deployment of the app on edge devices, ensuring efficient performance and resource optimization.
+</li>
+</ul>
+
+## Challenges Involved
+
+<ul>
+  <li>Story Coherence: Ensuring that the LLM generates a coherent, engaging story based on a user’s prompt.</li>
+  <li>Image Relevance: Generating images that align with and represent the story in a comic book style.</li>
+  <li>Integration: Seamlessly integrating text and images into a cohesive comic book format.</li>
+  <li>Edge Deployment: Optimizing the application to run efficiently on edge devices with limited computational resources.</li>
+</ul>
+
+## Tools & Resources to be Used
+
+<ul>
+  <li>LLMs: Use open-weight models like Llama, Deepseek, or Mistral. Evaluate the best model for generating stories based on the requirements.</li>
+  <li>Image Generation Tools: Leverage open-weight models like Stable Diffusion for generating images, deployable via platforms like Comfy UI or Intel AI Playground.</li>
+  <li>Programming Languages: Python for developing the story generation, image generation, and integration modules.</li>
+  <li>Edge Devices: Utilize Intel-based edge devices for deploying and running the application locally.</li>
+  <li>App Development Frameworks: Use Streamlit or similar Python-based frameworks to integrate all modules into a user-friendly web interface.</li>
+</ul>
+
+
 
 
