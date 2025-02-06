@@ -6,13 +6,13 @@
 ## Table of Contents
 <ul> <li><p>Knowledge of Large Language Models (LLMs): Understanding of how LLMs work, including
 prompt engineering and deploying with hardware acceleration on local computing
-devices.</p></li><br/>
+devices.</p></li>
 <li><p>Familiarity with Image Generation Tools: Experience with tools like Stable Diffusion, or
 similar platforms for generating images which can be deployed on the edge via
-opensource projects like comfy UI or Intel AI Playground.</p></li><br/>
-<li><p>Programming Skills: Proficiency in Python or other relevant programming languages.</p></li><br/>
-<li><p>Edge Computing: Basic knowledge of deploying AI models on edge devices.</p></li><br/>
+opensource projects like comfy UI or Intel AI Playground.</p></li>
+<li><p>Programming Skills: Proficiency in Python or other relevant programming languages.</p></li>
+<li><p>Edge Computing: Basic knowledge of deploying AI models on edge devices.</p></li>
   <li><p>App Development: Experience in developing applications, preferably with a focus on
 integrating multiple AI services.
-</p></li><br/>
+</p></li>
 </ul>
