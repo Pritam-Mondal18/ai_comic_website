@@ -16,3 +16,25 @@ opensource projects like comfy UI or Intel AI Playground.</p></li>
 integrating multiple AI services.
 </p></li>
 </ul>
+
+## Problem Description
+
+<p>The objective of ComicCrafter AI is to develop an application capable of generating a comic book-style short story based on a user-provided prompt. The application should generate a story split into four parts: introduction, storyline, climax, and moral. The project will be executed in four distinct phases:</p>
+
+## Phase 1: LLM Story Generation
+
+<ul>
+  <li>Develop a module that generates a coherent story using LLMs based on the user’s prompt.</li>
+  <li>he story is divided into four parts: introduction, storyline, climax, and moral.</li>
+</ul>
+
+## Phase 2: Image Generation
+
+<ul>
+  <li>Develop a module that generates images corresponding to each story part using AI-based image generation tools like Stable Diffusion.</li>
+  <li>Ensure that the images are coherent with the story.</li>
+</ul>
+
+
+
+
