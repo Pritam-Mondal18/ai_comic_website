@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+body {
+  font-family: "Bangers", cursive;
+  background: radial-gradient(circle, #ffcc00, #ff5733);
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(to right, #ff5733, #ffcc00);
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 4px 4px #333;
+  letter-spacing: 2px;
+}
+
+.input-section,
+.output-section,
+.layout-section {
+  background: white;
+  padding: 25px;
+  border: 8px solid black;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 12px 12px black;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.input-section:hover,
+.output-section:hover,
+.layout-section:hover {
+  transform: scale(1.07);
+  box-shadow: 15px 15px black;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin-top: 8px;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #c70039;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 6px 6px black;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #900c3f;
+  transform: translateY(-5px);
+  box-shadow: 8px 8px black;
+}
+
+#comicOutput img {
+  width: 100%;
+  border: 8px solid black;
+  box-shadow: 12px 12px black;
+  border-radius: 15px;
+}
+
+.layout-section select {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .input-section,
+  .output-section,
+  .layout-section {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .input-section,
+  .output-section,
+  .layout-section {
+    width: 100%;
+    padding: 15px;
+  }
+
+  input {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}

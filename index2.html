@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Comic Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>AI Comic Generator</h1>
+  </header>
+
+  <main>
+    <section class="layout-section">
+      <h2>Select a Comic Layout</h2>
+      <label for="comicLayout">Choose Layout:</label>
+      <select id="comicLayout">
+        <option value="layout1">Classic Grid</option>
+        <option value="layout2">Manga Style</option>
+        <option value="layout3">Dynamic Action</option>
+        <option value="layout4">Retro Newspaper</option>
+        <option value="layout5">Minimalist</option>
+      </select>
+    </section>
+
+    <section class="input-section">
+      <h2>Create Your Comic Story</h2>
+      <form id="comicForm">
+        <label for="introduction">Introduction:</label>
+        <input type="text" id="introduction" required>
+
+        <label for="storyline">Storyline:</label>
+        <input type="text" id="storyline" required>
+
+        <label for="climax">Climax:</label>
+        <input type="text" id="climax" required>
+
+        <label for="moral">Moral:</label>
+        <input type="text" id="moral" required>
+
+        <button type="submit">Generate Comic</button>
+      </form>
+    </section>
+
+    <section class="output-section">
+      <h2>Generated Comic</h2>
+      <div id="comicOutput"></div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+  <script>
+    document.getElementById("comicForm").addEventListener("submit", async function (event) {
+      event.preventDefault();
+      let introduction = document.getElementById("introduction").value;
+      let storyline = document.getElementById("storyline").value;
+      let climax = document.getElementById("climax").value;
+      let moral = document.getElementById("moral").value;
+
+      let response = await fetch("/generate_comic", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ introduction, storyline, climax, moral })
+      });
+
+      let data = await response.json();
+      document.getElementById("comicOutput").innerHTML = data.images.map(img => `<img src="${img}" alt="Generated Comic Image">`).join('');
+    });
+  </script>
+</body>
+
+</html>
