@@ -3,7 +3,8 @@
 ## Overview
 <p>ComicCrafter AI is a generative AI-based comic generator that runs locally on edge devices. It creates comic-style stories based on user input prompts, dividing the story into four parts: introduction, storyline, climax, and moral of the story.</p><br/>
 
-[watch demo]("https://github.com/Pritam-Mondal18/ai_comic_website/blob/e9213be1466546bf29d875d034ea482f5542a367/comic.mp4")
+[Watch Demo](https://raw.githubusercontent.com/Pritam-Mondal18/ai_comic_website/main/comic.mp4)
+
 
 ## Table of Contents
 <ul> <li><p>Knowledge of Large Language Models (LLMs): Understanding of how LLMs work, including
