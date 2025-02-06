@@ -10,4 +10,9 @@ devices.</p></li><br/>
 <li><p>Familiarity with Image Generation Tools: Experience with tools like Stable Diffusion, or
 similar platforms for generating images which can be deployed on the edge via
 opensource projects like comfy UI or Intel AI Playground.</p></li><br/>
-<p>Programming Skills: Proficiency in Python or other relevant programming languages.</p></li><br/></ul>
+<li><p>Programming Skills: Proficiency in Python or other relevant programming languages.</p></li><br/>
+<li><p>Edge Computing: Basic knowledge of deploying AI models on edge devices.</p></li><br/>
+  <li><p>App Development: Experience in developing applications, preferably with a focus on
+integrating multiple AI services.
+</p></li><br/>
+</ul>
